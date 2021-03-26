@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Windows;
 using System.Windows.Input;
 
-namespace WpfFramework
+namespace WpfFramework.Core
 {
     public class RelayCommand : ICommand
     {
@@ -22,12 +23,17 @@ namespace WpfFramework
 
         public bool CanExecute(object parameter)
         {
-            return this.canExecute == null || this.canExecute();
+            return canExecute == null || canExecute();
+        }
+
+        public void RaiseCanExecuteChanged()
+        {
+            Application.Current.Dispatcher.Invoke(() => { CommandManager.InvalidateRequerySuggested(); });
         }
 
         public void Execute(object parameter)
         {
-            this.execute();
+            execute();
         }
     }
 }

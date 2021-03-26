@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
 
-namespace WpfFramework
+namespace WpfFramework.Core
 {
     public class ViewModelBase : INotifyPropertyChanged
     {

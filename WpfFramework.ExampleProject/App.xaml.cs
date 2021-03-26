@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using System.Reflection;
 using System.Windows;
-using System.Windows.Navigation;
+using WpfFramework.Core;
 
 namespace WpfFramework.ExampleProject
 {

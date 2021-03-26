@@ -143,9 +143,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WpfFramework\WpfFramework.csproj">
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WpfFramework\WpfFramework.Core.csproj">
       <Project>{17741549-45f7-4d6e-b5b9-a2792660cdfd}</Project>
-      <Name>WpfFramework</Name>
+      <Name>WpfFramework.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

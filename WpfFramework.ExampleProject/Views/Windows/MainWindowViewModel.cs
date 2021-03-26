@@ -1,4 +1,5 @@
-﻿using WpfFramework.ExampleProject.Views.Pages;
+﻿using WpfFramework.Core;
+using WpfFramework.ExampleProject.Views.Pages;
 
 namespace WpfFramework.ExampleProject.Views.Windows
 {
