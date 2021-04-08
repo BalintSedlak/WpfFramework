@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
-	<UseWPF>true</UseWPF>
+    <UseWPF>true</UseWPF>
+    <version>1.0.0.0</version>
   </PropertyGroup>
 
    	
 </Project>
-<version>1.0.0.0</version>
