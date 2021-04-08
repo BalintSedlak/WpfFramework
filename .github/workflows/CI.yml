@@ -22,5 +22,5 @@ jobs:
     - name: Publish  
       uses: brandedoutcast/publish-nuget@v2.5.2  
       with:   
-        PROJECT_FILE_PATH: WpfFramework.Core/WpfFramework.Core.csproj  
+        PROJECT_FILE_PATH: Directory.Build.props
         NUGET_KEY: ${{secrets.NUGET_API_KEY}} 
