@@ -5,4 +5,5 @@
 	<UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <version>1.0.0.0</version> 	
 </Project>
