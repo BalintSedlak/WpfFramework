@@ -19,8 +19,3 @@ jobs:
         dotnet-version: 5.0.x
     - name: Build
       run: dotnet build --configuration Release
-    - name: Publish  
-      uses: brandedoutcast/publish-nuget@v2.5.2  
-      with:   
-        PROJECT_FILE_PATH: WpfFramework.Core/WpfFramework.Core.csproj
-        NUGET_KEY: ${{secrets.NUGET_API_KEY}} 
